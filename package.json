@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "grailsoft-modules": "link:..",
+    "grailsoft-modules": "link:../temp/grailsoft-modules",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-hash-link": "^1.2.1",

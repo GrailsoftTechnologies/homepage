@@ -7,7 +7,7 @@ import { NavigationBar, Footer, Router, RouterSection } from 'grailsoft-modules'
 import 'bootstrap/dist/css/bootstrap.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
-import logo from './img/GTS-white.jpg'
+import logo from './img/GLogo-white.jpg'
 // import samplePDF from './sample.pdf'
 import Home from './components/Home'
 import Projects from './components/Projects'

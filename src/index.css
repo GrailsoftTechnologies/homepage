@@ -26,8 +26,17 @@ body, html {
   margin-bottom: 3rem;
 }
 
+.App .nav-link {
+  color: inherit!important;
+}
+
 #profilePic {
   height: 200px;
   width: 200px;
   border-radius: 100%;
+}
+
+@font-face {
+  font-family: 'Century';
+  src: url('font/CenturyGothic.ttf') format('truetype');
 }

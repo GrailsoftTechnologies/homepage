@@ -8,7 +8,7 @@ export default function Home (props) {
   return (
     <Container className='Home'>
       <Row className='d-flex flex-column align-items-center justify-content-center' style={{height: '80vh'}} id='Home'>
-        <Col className='d-flex flex-column align-items-center justify-content-center' md='8' style={{textAlign: 'center'}}>
+        <Col className='d-flex flex-column align-items-center justify-content-center' md='8' style={{textAlign: 'center', fontFamily: 'Century'}}>
           <h1>GRAILSOFT</h1>
           <h1>TECHNICAL</h1>
           <h1>SOLUTIONS</h1>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Col, Row } from 'reactstrap'
 
-import examplePic from '../../example.jpg'
 import hairlair from '../../img/hairlairpage.jpg'
 import thunderbird from '../../img/tbirdpage.jpg'
 import ncba from '../../img/ncbapage.jpg'
@@ -14,77 +13,89 @@ export default function Projects (props) {
     <Container id='Projects'>
       <Row style={{minHeight: '70vh'}}>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='thunderbird'>
-          <Row style={{width: '100%'}}>
-            <Col xl='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <img className='d-none d-xl-block' src={thunderbird} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='thunderbird' />
-            </Col>
-            <Col xl='8' className='d-flex flex-column align-items-center justify-content-center'>
-              <h1>Thunderbird Bar</h1>
-              <h2>We took a simple approach to creating some shit and then something else</h2>
-              <h3>We took a simple approach to creating some shit and then something else. We took a simple approach to creating some shit and then something else</h3>
-            </Col>
-          </Row>
+          <a href='https://www.thunderbirdbarpdx.com'>
+            <Row style={{width: '100%'}}>
+              <Col xl='4' className='d-flex flex-column align-items-center justify-content-center'>
+                  <img className='d-none d-xl-block' src={thunderbird} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='thunderbird' />
+              </Col>
+              <Col xl='8' className='d-flex flex-column align-items-center justify-content-center'>
+                <h1>Thunderbird Bar</h1>
+                <h2>A clean layout for a cool bar</h2>
+                <h3>Thunderbird wanted a website that would capture their atmosphere and allow them to engage with their customers</h3>
+              </Col>
+            </Row>
+          </a>
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='hairlair'>
-          <Row style={{width: '100%'}}>
-            <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
-              <h1>The Hair Lair</h1>
-              <h2>We took a simple approach to creating some shit and then something else</h2>
-              <h3>We took a simple approach to creating some shit and then something else. We took a simple approach to creating some shit and then something else</h3>
-            </Col>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <img className='d-none d-xl-block'src={hairlair} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='hairlair' />
-            </Col>
-          </Row>
+          <a href='https://www.hairlairpdx.com'>
+            <Row style={{width: '100%'}}>
+              <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
+                <h1>The Hair Lair</h1>
+                <h2>A clear approach to booking</h2>
+                <h3>The Hair Lair asked for a simple appointment system that would be hassle-free for the owner and the customer</h3>
+              </Col>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <img className='d-none d-xl-block'src={hairlair} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='hairlair' />
+              </Col>
+            </Row>
+          </a>
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='starday'>
-          <Row style={{width: '100%'}}>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <img className='d-none d-xl-block'src={starday} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='starday' />
-            </Col>
-            <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
-              <h1>Starday Tavern</h1>
-              <h2>We took a simple approach to creating some shit and then something else</h2>
-              <h3>We took a simple approach to creating some shit and then something else. We took a simple approach to creating some shit and then something else</h3>
-            </Col>
-          </Row>
+          <a href='https://www.stardaytavern.com'>
+            <Row style={{width: '100%'}}>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <img className='d-none d-xl-block'src={starday} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='starday' />
+              </Col>
+              <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
+                <h1>Starday Tavern</h1>
+                <h2>Events, specials, swag, and more</h2>
+                <h3>There's a bit of a following surrounding the Starday Tavern, and the owners were looking for a way to keep customers engaged and welcome newcomers. Free hugs!</h3>
+              </Col>
+            </Row>
+          </a>
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='ncba'>
-          <Row style={{width: '100%'}}>
-            <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
-              <h1>Nashville Classical Ballet Academy</h1>
-              <h2>We took a simple approach to creating some shit and then something else</h2>
-              <h3>We took a simple approach to creating some shit and then something else. We took a simple approach to creating some shit and then something else</h3>
-            </Col>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <img className='d-none d-xl-block'src={ncba} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='ncba' />
-            </Col>
-          </Row>
+          <a href='https://www.ncbacademy.com'>
+            <Row style={{width: '100%'}}>
+              <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
+                <h1>Nashville Classical Ballet Academy</h1>
+                <h2>A new look for a new school</h2>
+                <h3>NCBA was looking for a tailor-made website that would allow them flexibility as their business grew</h3>
+              </Col>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <img className='d-none d-xl-block'src={ncba} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='ncba' />
+              </Col>
+            </Row>
+          </a>
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='bam'>
-          <Row style={{width: '100%'}}>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <h1>Brick and Motor Pizza</h1>
-            </Col>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <img className='d-none d-xl-block'src={bam} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='bam' />
-            </Col>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <h3>We took a simple approach to creating some shit and then something else. We took a simple approach to creating some shit and then something else</h3>
-            </Col>
-          </Row>
+          <a href='https://www.brickandmotorpdx.com'>
+            <Row style={{width: '100%'}}>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <h1>Brick and Motor Pizza</h1>
+              </Col>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <img className='d-none d-xl-block'src={bam} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='bam' />
+              </Col>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <h3>BAM Pizza needed a website to reflect their business model; simple, yet satisfying</h3>
+              </Col>
+            </Row>
+          </a>
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='zachsshack'>
-          <Row style={{width: '100%'}}>
-            <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
-              <img className='d-none d-xl-block'src={zachsshack} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='zachsshack' />
-            </Col>
-            <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
-              <h1>Zach's Shack</h1>
-              <h2>We took a simple approach to creating some shit and then something else</h2>
-              <h3>We took a simple approach to creating some shit and then something else. We took a simple approach to creating some shit and then something else</h3>
-            </Col>
-          </Row>
+          <a href='https://www.zachsshack.com'>
+            <Row style={{width: '100%'}}>
+              <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
+                <img className='d-none d-xl-block'src={zachsshack} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='zachsshack' />
+              </Col>
+              <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
+                <h1>Zach's Shack</h1>
+                <h2>A new look for a Hawthorne Staple</h2>
+                <h3>After relying of facebook for years, Zach's Shack needed a better platform to show off their hot dogs</h3>
+              </Col>
+            </Row>
+          </a>
         </Col>
       </Row>
     </Container>

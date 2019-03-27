@@ -14,7 +14,7 @@ export default function Projects (props) {
       <Row style={{minHeight: '70vh'}}>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='thunderbird'>
           <a href='https://www.thunderbirdbarpdx.com'>
-            <Row style={{width: '100%'}}>
+            <Row>
               <Col xl='4' className='d-flex flex-column align-items-center justify-content-center'>
                   <img className='d-none d-xl-block' src={thunderbird} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='thunderbird' />
               </Col>
@@ -28,7 +28,7 @@ export default function Projects (props) {
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='hairlair'>
           <a href='https://www.hairlairpdx.com'>
-            <Row style={{width: '100%'}}>
+            <Row>
               <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
                 <h1>The Hair Lair</h1>
                 <h2>A clear approach to booking</h2>
@@ -42,7 +42,7 @@ export default function Projects (props) {
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='starday'>
           <a href='https://www.stardaytavern.com'>
-            <Row style={{width: '100%'}}>
+            <Row>
               <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
                 <img className='d-none d-xl-block'src={starday} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='starday' />
               </Col>
@@ -56,7 +56,7 @@ export default function Projects (props) {
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='ncba'>
           <a href='https://www.ncbacademy.com'>
-            <Row style={{width: '100%'}}>
+            <Row>
               <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
                 <h1>Nashville Classical Ballet Academy</h1>
                 <h2>A new look for a new school</h2>
@@ -70,7 +70,7 @@ export default function Projects (props) {
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='bam'>
           <a href='https://www.brickandmotorpdx.com'>
-            <Row style={{width: '100%'}}>
+            <Row>
               <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
                 <h1>Brick and Motor Pizza</h1>
               </Col>
@@ -85,7 +85,7 @@ export default function Projects (props) {
         </Col>
         <Col className='d-flex flex-column align-items-center justify-content-center' xl='12' style={{textAlign: 'center', minHeight: '60vh', minWidth: '100%'}} id='zachsshack'>
           <a href='https://www.zachsshack.com'>
-            <Row style={{width: '100%'}}>
+            <Row>
               <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
                 <img className='d-none d-xl-block'src={zachsshack} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='zachsshack' />
               </Col>

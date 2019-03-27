@@ -1,0 +1,29 @@
+{
+  "name": "grailsoft-website",
+  "homepage": "https://grailsofttechnologies.github.io/homepage/",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "grailsoft-modules": "link:..",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-hash-link": "^1.2.1",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

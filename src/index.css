@@ -1,0 +1,33 @@
+body, html {
+  font-size: 10px;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+  body, html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body, html {
+    font-size: 20px;
+  }
+}
+
+.App {
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.App hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#profilePic {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}

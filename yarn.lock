@@ -4309,9 +4309,15 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-"grailsoft-modules@link:../temp/grailsoft-modules":
-  version "0.0.0"
-  uid ""
+"grailsoft-modules@https://github.com/dcuthell/grailsoft-modules":
+  version "0.0.1"
+  resolved "https://github.com/dcuthell/grailsoft-modules#beb2056842180d147b0aa6be6da644ad4de7efe6"
+  dependencies:
+    "@fortawesome/fontawesome-free" "^5.7.2"
+    bootstrap "^4.2.1"
+    react-router-dom "^4.3.1"
+    reactstrap "^6.5.0"
+    rgba-convert "^0.3.0"
 
 growly@^1.3.0:
   version "1.3.0"

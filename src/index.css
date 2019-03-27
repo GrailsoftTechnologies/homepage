@@ -30,6 +30,14 @@ body, html {
   color: inherit!important;
 }
 
+.App a {
+  color: inherit!important;
+}
+
+.App a:hover {
+  color: inherit!important;
+}
+
 #profilePic {
   height: 200px;
   width: 200px;

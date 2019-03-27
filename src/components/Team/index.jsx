@@ -35,8 +35,8 @@ export default function Team (props) {
             <img src={richPic} alt='rich' id='profilePic' />
             <hr style={{margin: '10px'}} />
             <h2>Richard Garrick</h2>
+            <h4>Chairman</h4>
             <h4>Developer</h4>
-            <h4>Director of Finance</h4>
           </a>
         </Col>
         <Col md='6' xl='4' style={{ paddingTop: '5vh', paddingBottom: '5vh' }}>

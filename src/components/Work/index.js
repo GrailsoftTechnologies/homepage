@@ -21,35 +21,35 @@ const items = [
   {
     src: thunderbird,
     altText: 'Thunderbird Bar',
-    url: '/projects',
+    url: '/projects#thunderbird',
     caption: 'Connected Customers',
     slideText: 'Have your social media accounts seemlessly embedded in your site'
   },
   {
     src: ncba,
     altText: 'Nashville Classical Ballet Academy',
-    url: '/projects',
+    url: '/projects#ncba',
     caption: 'Flexible Format',
     slideText: 'We make your content look just the way you want it to'
   },
   {
     src: starday,
     altText: 'Starday Tavern',
-    url: '/projects',
+    url: '/projects#starday',
     caption: 'Mobile Minded',
     slideText: 'Grailsoft products are designed to look great on all platforms'
   },
   {
     src: zachsshack,
     altText: `Zach's Shack`,
-    url: '/projects',
+    url: '/projects#zachsshack',
     caption: 'Individual Insight',
     slideText: `We'll help you craft a product that will speak to your customers`
   },
   {
     src: bam,
     altText: 'Brick and Motor Pizza',
-    url: '/projects',
+    url: '/projects#bam',
     caption: 'Clear Content',
     slideText: 'We cut down on clutter to make your content pop'
   }

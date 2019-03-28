@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/nico.dfb72e87.jpg"
   },
   {
-    "revision": "420d036065a10e67aef8",
-    "url": "/homepage/static/css/main.f73f1f6a.chunk.css"
+    "revision": "e86ad7a8b2484684121d",
+    "url": "/homepage/static/css/main.aa52838a.chunk.css"
   },
   {
     "revision": "1d55219e7988c0454e32",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/fa-solid-900.49279363.svg"
   },
   {
-    "revision": "35d523a542817e68c612",
-    "url": "/homepage/static/js/2.35d523a5.chunk.js"
+    "revision": "7791b183fe6d87d704d0",
+    "url": "/homepage/static/js/2.7791b183.chunk.js"
   },
   {
     "revision": "c448087569ee0a7241250222a513de6c",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/zachsshackpage.d6578acd.jpg"
   },
   {
-    "revision": "4131e7be41318794f9d1fa6776328cbb",
-    "url": "/homepage/static/media/GLogo-white.4131e7be.jpg"
+    "revision": "54e89b7a2238ee0c88b1fafa59c793b6",
+    "url": "/homepage/static/media/GLogo-blacktext.54e89b7a.png"
   },
   {
     "revision": "0551e2d0b5a19ad3084f16f024e299ee",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/amirah.7c27d699.jpg"
   },
   {
-    "revision": "420d036065a10e67aef8",
-    "url": "/homepage/static/js/main.420d0360.chunk.js"
+    "revision": "e86ad7a8b2484684121d",
+    "url": "/homepage/static/js/main.e86ad7a8.chunk.js"
   },
   {
     "revision": "09f6b2ba02572f19a7d7dd2b5f6494ad",
@@ -80,24 +80,20 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/fa-brands-400.a7b95dbd.eot"
   },
   {
-    "revision": "98b6db59be947f563350d2284fc9ea36",
-    "url": "/homepage/static/media/fa-brands-400.98b6db59.ttf"
-  },
-  {
-    "revision": "dcce4b7fbd5e895561e18af4668265af",
-    "url": "/homepage/static/media/fa-regular-400.dcce4b7f.eot"
+    "revision": "2ef8ba3410dcc71578a880e7064acd7a",
+    "url": "/homepage/static/media/fa-brands-400.2ef8ba34.woff"
   },
   {
     "revision": "5bf145531213545e03ff41cd27df7d2b",
     "url": "/homepage/static/media/fa-brands-400.5bf14553.svg"
   },
   {
-    "revision": "5e2f92123d241cabecf0b289b9b08d4a",
-    "url": "/homepage/static/media/fa-brands-400.5e2f9212.woff2"
+    "revision": "dcce4b7fbd5e895561e18af4668265af",
+    "url": "/homepage/static/media/fa-regular-400.dcce4b7f.eot"
   },
   {
-    "revision": "427d721b86fc9c68b2e85ad42b69238c",
-    "url": "/homepage/static/media/fa-regular-400.427d721b.woff"
+    "revision": "98b6db59be947f563350d2284fc9ea36",
+    "url": "/homepage/static/media/fa-brands-400.98b6db59.ttf"
   },
   {
     "revision": "e6257a726a0cf6ec8c6fec22821c055f",
@@ -108,12 +104,12 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/fa-regular-400.65b9977a.ttf"
   },
   {
-    "revision": "ff8d9f8adb0d09f11d4816a152672f53",
-    "url": "/homepage/static/media/fa-solid-900.ff8d9f8a.ttf"
-  },
-  {
     "revision": "5eb754ab7dbd2fee562360528db4c3c0",
     "url": "/homepage/static/media/fa-regular-400.5eb754ab.svg"
+  },
+  {
+    "revision": "46e7cec623d8bd790d9fdbc8de2d3ee7",
+    "url": "/homepage/static/media/fa-solid-900.46e7cec6.eot"
   },
   {
     "revision": "418dad87601f9c8abd0e5798c0dc1feb",
@@ -124,19 +120,23 @@ self.__precacheManifest = [
     "url": "/homepage/static/media/fa-solid-900.a7140145.woff"
   },
   {
-    "revision": "46e7cec623d8bd790d9fdbc8de2d3ee7",
-    "url": "/homepage/static/media/fa-solid-900.46e7cec6.eot"
+    "revision": "ff8d9f8adb0d09f11d4816a152672f53",
+    "url": "/homepage/static/media/fa-solid-900.ff8d9f8a.ttf"
   },
   {
-    "revision": "2ef8ba3410dcc71578a880e7064acd7a",
-    "url": "/homepage/static/media/fa-brands-400.2ef8ba34.woff"
+    "revision": "427d721b86fc9c68b2e85ad42b69238c",
+    "url": "/homepage/static/media/fa-regular-400.427d721b.woff"
   },
   {
-    "revision": "35d523a542817e68c612",
+    "revision": "5e2f92123d241cabecf0b289b9b08d4a",
+    "url": "/homepage/static/media/fa-brands-400.5e2f9212.woff2"
+  },
+  {
+    "revision": "7791b183fe6d87d704d0",
     "url": "/homepage/static/css/2.7db282b1.chunk.css"
   },
   {
-    "revision": "b0d4baadcc35df9981706beab0cdf413",
+    "revision": "d347e004cb5fd8c090e8e38e1552a4b5",
     "url": "/homepage/index.html"
   }
 ];

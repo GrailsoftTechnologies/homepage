@@ -30,7 +30,7 @@ export default class App extends Component {
             </NavItem>
           </Nav>
         </NavigationBar>
-        <Router text='black' background='white' hovercolor='green'>
+        <Router text='black' background='white' hovercolor='grey'>
           <RouterSection exact path='/'>
             <Home />
           </RouterSection>

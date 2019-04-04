@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Col, Row } from 'reactstrap'
-import { IGEmbedFrame } from 'grailsoft-modules'
 
 import Work from '../Work'
 
@@ -21,7 +20,7 @@ export default function Home (props) {
           <h1> Front End </h1>
           <h3>Better Design / Better Experience</h3>
           <p>
-            "We take design seriously. Our team of Front End Experts will make sure your project is always looking its best."
+            We take design seriously. Our team of Front End Experts will make sure your project is always looking its best.
           </p>
         </Col>
       </Row>
@@ -31,7 +30,7 @@ export default function Home (props) {
           <h1> Back End </h1>
           <h3>Robust and Reliable</h3>
           <p>
-            "It is what goes on behind the curtains that drives the show. We will help you build your project on stress-tested systems that function effortlessly."
+            It is what goes on behind the curtains that drives the show. We will help you build your project on stress-tested systems that function effortlessly.
           </p>
         </Col>
         <Col md='6' />
@@ -43,7 +42,7 @@ export default function Home (props) {
           <h1> Data Solutions </h1>
           <h3>Scale to Meet Your Size</h3>
           <p>
-            "Your data is one of your most valuable assests. We can guide you through a suite of data management solutions to find what is best for you."
+            Your data is one of your most valuable assests. We can guide you through a suite of data management solutions to find what is best for you.
           </p>
         </Col>
         <Col md='3' />
@@ -52,12 +51,6 @@ export default function Home (props) {
       <Row>
         <Col>
           <Work />
-        </Col>
-      </Row>
-      <hr />
-      <Row>
-        <Col>
-          <IGEmbedFrame token={process.env.REACT_APP_INSTAGRAM_API} hovercolor='white' squares />
         </Col>
       </Row>
       <hr />

@@ -114,7 +114,7 @@ class Work extends Component {
     })
 
     return (
-      <Container className='Work' style={{height: '80vh'}}>
+      <Container className='Work' style={{minHeight: '40vh'}}>
         <Row style={{ paddingTop: '4vh' }}>
           <Col xl='12' >
             <Carousel

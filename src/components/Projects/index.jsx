@@ -76,7 +76,7 @@ export default function Projects (props) {
               </Col>
               <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
                 <h1>Brick and Motor Pizza</h1>
-                <h3>BAM Pizza needed a website to reflect their business model; simple, yet satisfying</h3>
+                <h3>BAM Pizza needed a website to reflect their oven-baked pizzas; simple, yet satisfying</h3>
               </Col>
             </Row>
           </a>
@@ -87,7 +87,7 @@ export default function Projects (props) {
               <Col md='8' className='d-flex flex-column align-items-center justify-content-center'>
                 <h1>Zach's Shack</h1>
                 <h2>A new look for a Hawthorne Staple</h2>
-                <h3>After relying of facebook for years, Zach's Shack needed a better platform to show off their hot dogs</h3>
+                <h3>After relying on facebook for years, Zach's Shack needed a better platform to show off their hot dogs</h3>
               </Col>
               <Col md='4' className='d-flex flex-column align-items-center justify-content-center'>
                 <img className='d-none d-xl-block'src={zachsshack} style={{ maxHeight: '370px', maxWidth: '370px' }} alt='zachsshack' />
